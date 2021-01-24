@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="paraDegeri">Input value</string>
+    <string name="dovizCevir">Convert</string>
+    <string name="sonDeger">Result</string>
+    <string name="cikis">Exit</string>
+    <string name="cikisUyari">WARNING!</string>
+    <string name="cikisSorusu">Do you want to exit the application?</string>
+    <string name="cikisEvet">Yes</string>
+    <string name="cikisHayir">No</string>
+    <string name="degerGir">Please enter a value!</string>
+    <string name="ayniBirim">The same units cannot be converted!</string>
+    <string name="degerUyari">Please enter a number!</string>
+    <string name="internet">Check your internet connection!</string>
+</resources>

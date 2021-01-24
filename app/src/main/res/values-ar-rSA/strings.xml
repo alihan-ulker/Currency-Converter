@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">" محول العملات"</string>
+    <string name="paraDegeri">قيمة المدخلات</string>
+    <string name="dovizCevir">تحويل</string>
+    <string name="sonDeger">نتيجة</string>
+    <string name="cikis">خروج</string>
+    <string name="cikisUyari">تحذير!</string>
+    <string name="cikisSorusu">هل تريد الخروج من التطبيق؟</string>
+    <string name="cikisEvet">نعم</string>
+    <string name="cikisHayir">لا</string>
+    <string name="degerGir">رجى إدخال قيمة!</string>
+    <string name="ayniBirim">لا يمكن تحويل نفس الوحدات!</string>
+    <string name="degerUyari">الرجاء إدخال رقم!</string>
+    <string name="internet">تحقق من اتصالك بالإنترنت!</string>
+</resources>

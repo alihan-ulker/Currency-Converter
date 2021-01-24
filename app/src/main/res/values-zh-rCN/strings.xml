@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">货币换算</string>
+    <string name="paraDegeri">输入值</string>
+    <string name="dovizCevir">输入值</string>
+    <string name="sonDeger">结果</string>
+    <string name="cikis">出口</string>
+    <string name="cikisUyari">警告！</string>
+    <string name="cikisSorusu">您要退出该应用程序吗？</string>
+    <string name="cikisEvet">是</string>
+    <string name="cikisHayir">没有</string>
+    <string name="degerGir">请输入一个值！</string>
+    <string name="ayniBirim">相同单位无法转换！</string>
+    <string name="degerUyari">请输入一个数字！</string>
+    <string name="internet">检查您的互联网连接！</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Конвертер валют</string>
+    <string name="paraDegeri">Вхідне значення</string>
+    <string name="dovizCevir">Перетворити</string>
+    <string name="sonDeger">Результат</string>
+    <string name="cikis">Вихід</string>
+    <string name="cikisUyari">" УВАГА!"</string>
+    <string name="cikisSorusu">Вийти з програми?</string>
+    <string name="cikisEvet">Так</string>
+    <string name="cikisHayir">Ні</string>
+    <string name="degerGir">Введіть значення!</string>
+    <string name="ayniBirim">Неможливо перетворити ті самі одиниці виміру!</string>
+    <string name="degerUyari">" Введіть номер!"</string>
+    <string name="internet">Перевірте підключення до Інтернету!</string>
+</resources>

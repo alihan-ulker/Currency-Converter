@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Valuta-omskakelaar</string>
+    <string name="paraDegeri">Invoerwaarde</string>
+    <string name="dovizCevir">Skakel om</string>
+    <string name="sonDeger">Uitslag</string>
+    <string name="cikis">Uitgang</string>
+    <string name="cikisUyari">WAARSKUWING!</string>
+    <string name="cikisSorusu">Wil u die aansoek verlaat?</string>
+    <string name="cikisEvet">Ja</string>
+    <string name="cikisHayir">Geen</string>
+    <string name="degerGir">Voer asseblief \'n waarde in!</string>
+    <string name="ayniBirim">Dieselfde eenhede kan nie omgeskakel word nie!</string>
+    <string name="degerUyari">Voer \'n nommer in!</string>
+    <string name="internet">Gaan u internetverbinding na!</string>
+</resources>

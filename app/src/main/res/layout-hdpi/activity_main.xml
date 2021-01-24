@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arka_plan"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="48dp"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintHorizontal_bias="0.0"
+        ads:layout_constraintStart_toEndOf="@+id/sonParaBirimi"
+        ads:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/paraDegeri"
+        style="@android:style/Widget.Holo.EditText"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTintMode="screen"
+        android:hint="@string/paraDegeri"
+        android:inputType="number|numberDecimal"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="230dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="#3F51B5"
+        android:backgroundTintMode="screen"
+        android:spinnerMode="dropdown"
+        android:textColor="@color/black"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toBottomOf="@+id/paraDegeri" />
+
+    <Spinner
+        android:id="@+id/sonParaBirimi"
+        android:layout_width="230dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="#3F51B5"
+        android:backgroundTintMode="screen"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toBottomOf="@+id/spinner1" />
+
+    <Button
+        android:id="@+id/dovizCevir"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/dovizCevir"
+        android:textAlignment="center"
+        android:textLocale="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toBottomOf="@+id/sonDeger"
+        ads:layout_constraintVertical_bias="0.069"
+        app:rippleColor="#E91E63" />
+
+    <TextView
+        android:id="@+id/sonDeger"
+        android:layout_width="230dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="48dp"
+        android:gravity="center"
+        android:maxLength="8"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toBottomOf="@+id/sonParaBirimi"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="60dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintHorizontal_bias="0.0"
+        ads:layout_constraintStart_toEndOf="@+id/sonDeger"
+        ads:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="48dp"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintHorizontal_bias="0.0"
+        ads:layout_constraintStart_toEndOf="@+id/spinner1"
+        ads:layout_constraintTop_toBottomOf="@+id/paraDegeri" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

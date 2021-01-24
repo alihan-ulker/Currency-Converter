@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Währungsrechner</string>
+    <string name="paraDegeri">Wert eingeben</string>
+    <string name="dovizCevir">Übersetzen</string>
+    <string name="sonDeger">Ergebnis</string>
+    <string name="cikis">Ausgang</string>
+    <string name="cikisSorusu">Möchten Sie die Anwendung beenden?</string>
+    <string name="cikisEvet">Ja</string>
+    <string name="cikisHayir">Nein</string>
+    <string name="cikisUyari">" WARNUNG!"</string>
+    <string name="internet">" Prüfe deine Internetverbindung!"</string>
+    <string name="ayniBirim">" Die gleichen Einheiten können nicht umgerechnet werden!"</string>
+    <string name="degerGir">" Bitte einen Wert eingeben!"</string>
+    <string name="degerUyari">" Bitte gebe eine Nummer ein!"</string>
+</resources>

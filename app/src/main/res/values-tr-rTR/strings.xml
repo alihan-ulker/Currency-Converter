@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Döviz Çevirici</string>
+    <string name="paraDegeri">Değer Giriniz</string>
+    <string name="dovizCevir">Çevir</string>
+    <string name="sonDeger">Sonuç</string>
+    <string name="cikis">Çıkış</string>
+    <string name="cikisSorusu">Uygulamadan çıkmak istiyor musunuz?</string>
+    <string name="cikisUyari">UYARI!</string>
+    <string name="cikisEvet">Evet</string>
+    <string name="cikisHayir">Hayır</string>
+    <string name="degerGir">Lütfen bir değer giriniz!</string>
+    <string name="ayniBirim">Aynı birimler çevrilemez!</string>
+    <string name="internet">İnternet bağlantınızı kontrol edin!</string>
+    <string name="degerUyari">Lütfen bir rakam giriniz!</string>
+</resources>
