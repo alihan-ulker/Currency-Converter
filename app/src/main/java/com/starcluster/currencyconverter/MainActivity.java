@@ -38,8 +38,10 @@ import com.google.android.gms.ads.AdRequest;
 public class MainActivity extends AppCompatActivity {
 
     private InterstitialAd mInterstitialAd;
+    
+    //Google Admob 
     //Reklam id si
-    private static final String AD_UNIT_ID = "ca-app-pub-3150728348870047/6192331070";
+    private static final String AD_UNIT_ID = "ca-app-pub-*********************";
 
     //Atamalar yapildi
     Button cevir;
